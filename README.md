@@ -1,3 +1,7 @@
+10.3日版本：重构了ioc部分，使用spring的三局缓存和BeanDefinition实现ioc，并为之后的aop重构留下了口子
+目前支持懒加载，dependsOn，prototype
+之后会重构aop部分并继续增加功能
+
 模拟spring的一个myspring框架，实现了IoC，AOP，MVC功能 
 
 整体框架基于JDK反射实现，并使用cglib动态代理实现AOP
